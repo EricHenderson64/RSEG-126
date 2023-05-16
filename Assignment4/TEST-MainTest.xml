@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="LAPTOP-K7DNVF2Q" name="MainTest" skipped="0" tests="1" time="0.11" timestamp="2023-05-16T01:09:21">
+  <properties>
+    <property name="ant.library.dir" value="C:\Users\erich\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="12" />
+    <property name="java.specification.version" value="17" />
+    <property name="env.USERPROFILE" value="C:\Users\erich" />
+    <property name="ant.project.name" value="Assignment4" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.vendor.url" value="https://adoptium.net/" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="sun.boot.library.path" value="C:\Users\erich\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MainTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\erich\eclipse-workspace\Assignment4\TEST-MainTest.xml crashfile=C:\Users\erich\eclipse-workspace\Assignment4\junitvmwatcher16290052737029798152.properties propsfile=C:\Users\erich\eclipse-workspace\Assignment4\junit799413149867818444.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2023-01-17" />
+    <property name="java.home" value="C:\Users\erich\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre" />
+    <property name="basedir" value="C:\Users\erich\eclipse-workspace\Assignment4" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\erich\AppData\Local" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-K7DNVF2Q" />
+    <property name="env.PROCESSOR_REVISION" value="9e0a" />
+    <property name="user.script" value="" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 10, GenuineIntel" />
+    <property name="java.runtime.version" value="17.0.6+10" />
+    <property name="user.name" value="erich" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.vendor.version" value="Temurin-17.0.6+10" />
+    <property name="env.COMPUTERNAME" value="LAPTOP-K7DNVF2Q" />
+    <property name="env.HOMEPATH" value="\Users\erich" />
+    <property name="env.APPDATA" value="C:\Users\erich\AppData\Roaming" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="java.io.tmpdir" value="C:\Users\erich\AppData\Local\Temp\" />
+    <property name="java.version" value="17.0.6" />
+    <property name="env.Path" value="C:/Users/erich/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/erich/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\erich\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\erich\AppData\Local\Programs\Python\Python39\;C:\Users\erich\AppData\Local\Microsoft\WindowsApps;C:\Users\erich\AppData\Local\Microsoft\WindowsApps;C:\Users\erich\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32;" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.TMP" value="C:\Users\erich\AppData\Local\Temp" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Users\erich\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+    <property name="java.library.path" value="C:\Users\erich\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/erich/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/erich/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\erich\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\erich\AppData\Local\Programs\Python\Python39\;C:\Users\erich\AppData\Local\Microsoft\WindowsApps;C:\Users\erich\AppData\Local\Microsoft\WindowsApps;C:\Users\erich\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32;;." />
+    <property name="java.vendor" value="Eclipse Adoptium" />
+    <property name="env.LOGONSERVER" value="\\LAPTOP-K7DNVF2Q" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type.Assignment4" value="file" />
+    <property name="env.asl.log" value="Destination=file" />
+    <property name="java.class.path" value="C:\Users\erich\eclipse-workspace\Assignment4;C:\Users\erich\.p2\pool\plugins\junit-jupiter-api_5.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-jupiter-engine_5.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-jupiter-migrationsupport_5.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-jupiter-params_5.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-platform-commons_1.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-platform-engine_1.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-platform-launcher_1.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-platform-runner_1.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-platform-suite-api_1.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-platform-suite-engine_1.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-platform-suite-commons_1.9.2.jar;C:\Users\erich\.p2\pool\plugins\junit-vintage-engine_5.9.2.jar;C:\Users\erich\.p2\pool\plugins\org.opentest4j_1.2.0.jar;C:\Users\erich\.p2\pool\plugins\org.apiguardian.api_1.1.2.jar;C:\Users\erich\.p2\pool\plugins\org.junit_4.13.2.v20211018-1956.jar;C:\Users\erich\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\Users\erich\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\erich\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\erich\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\erich\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+    <property name="source" value="17" />
+    <property name="java.vm.vendor" value="Eclipse Adoptium" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="user.variant" value="" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java.vm.specification.version" value="17" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="env.USERDOMAIN" value="LAPTOP-K7DNVF2Q" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\erich" />
+    <property name="user.language" value="en" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="ant.java.version" value="17" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.AV_APPDATA" value="C:\Users\erich\AppData\Roaming" />
+    <property name="ant.file.Assignment4" value="C:\Users\erich\eclipse-workspace\Assignment4\build.xml" />
+    <property name="env.ANT_HOME" value="C:\Users\erich\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="java.security.manager" value="allow" />
+    <property name="ant.file" value="C:\Users\erich\eclipse-workspace\Assignment4\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="ant.project.invoked-targets" value="build,MainTest,build-refprojects,junitreport" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Users\erich\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues" />
+    <property name="user.dir" value="C:\Users\erich\eclipse-workspace\Assignment4" />
+    <property name="env.USERNAME" value="erich" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.OneDriveConsumer" value="C:\Users\erich\OneDrive" />
+    <property name="target" value="17" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="17.0.6+10" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="env.TEMP" value="C:\Users\erich\AppData\Local\Temp" />
+    <property name="java.class.version" value="61.0" />
+    <property name="env.OneDrive" value="C:\Users\erich\OneDrive" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="MainTest" name="testSieveOfEratosthenes" time="0.006" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

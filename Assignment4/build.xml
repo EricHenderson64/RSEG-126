@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="Assignment4">
+    <property environment="env"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="17"/>
+    <property name="source" value="17"/>
+    <path id="JUnit 5.libraryclasspath">
+        <pathelement location="../../.p2/pool/plugins/junit-jupiter-api_5.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-jupiter-engine_5.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-jupiter-migrationsupport_5.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-jupiter-params_5.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-platform-commons_1.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-platform-engine_1.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-platform-launcher_1.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-platform-runner_1.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-platform-suite-api_1.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-platform-suite-engine_1.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-platform-suite-commons_1.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/junit-vintage-engine_5.9.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.opentest4j_1.2.0.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.apiguardian.api_1.1.2.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit_4.13.2.v20211018-1956.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="Assignment4.classpath">
+        <pathelement location="."/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.Main.classpath">
+        <path refid="Assignment4.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.MainTest.classpath">
+        <path refid="Assignment4.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <copy includeemptydirs="false" todir=".">
+            <fileset dir=".">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete>
+            <fileset dir="." includes="**/*.class"/>
+        </delete>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="." includeantruntime="false" source="${source}" target="${target}">
+            <src path="."/>
+            <classpath refid="Assignment4.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target name="Main">
+        <java classname="Main" failonerror="true" fork="yes">
+            <classpath refid="run.Main.classpath"/>
+        </java>
+    </target>
+    <target name="MainTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="MainTest" todir="."/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.MainTest.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
