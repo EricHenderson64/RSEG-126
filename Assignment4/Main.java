@@ -23,9 +23,6 @@ public class Main {
 	
 	static boolean[] sieveOfEratosthenes(int max)
     {
-        // Create a boolean array "prime[0..n]" and initialize
-        // all entries it as true. A value in prime[i] will
-        // finally be false if i is Not a prime, else true.
         boolean prime[] = new boolean[max+1];
         for(int i=0;i<=max;i++)
             prime[i] = true;
