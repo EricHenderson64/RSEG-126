@@ -6,7 +6,7 @@ public class MainTest {
 	
 	@Test
 	public void testSieveOfEratosthenes() {
-		boolean test[] = new boolean[] {true, true, true, true, false, true, false};
+		boolean test[] = new boolean[] {true, true, true, true, false, true, true};
 		assertArrayEquals(test, Main.sieveOfEratosthenes(6));
 	}
 
