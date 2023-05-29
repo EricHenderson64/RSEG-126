@@ -5,7 +5,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-        System.out.print("Enter maximum integer: ");
+        System.out.print("Enter maximum integer: ")
         int max = sc.nextInt();
         boolean prime[] = sieveOfEratosthenes(max);
        //Print all prime numbers   
