@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\erich\git\Assignment5\ConsoleApplication1\ConsoleApplication1.cpp(11,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\erich\git\Assignment5\ConsoleApplication1\ConsoleApplication1.cpp(18,9): warning C4551: function call missing argument list
+  ConsoleApplication1.vcxproj -> C:\Users\erich\git\Assignment5\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

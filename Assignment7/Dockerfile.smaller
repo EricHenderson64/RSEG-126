@@ -1,0 +1,13 @@
+#Starting with a smaller alpine jdk base image
+FROM openjdk:17-alpine
+#Copy the code to the container
+COPY code ./src
+#Set working diretory
+WORKDIR /src
+#Compile the java code into a jar
+RUN javac Main.java && \
+    jar cf Main.jar Main.class && \
+    jar cfe Main.jar Main Main.class 
+
+#Run the jar
+ENTRYPOINT [ "java", "-jar", "Main.jar", "12"]

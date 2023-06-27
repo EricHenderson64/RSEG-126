@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myrand", "myrand.vcxproj", "{03200817-45CC-43DF-A662-B9BE2EEC6DDB}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "myrandinstaller", "..\myrandinstaller\myrandinstaller.aiproj", "{A60DB563-9F24-459F-B7CE-AFF033762E90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|x64 = All|x64
+		All|x86 = All|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DefaultBuild|x64 = DefaultBuild|x64
+		DefaultBuild|x86 = DefaultBuild|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.All|x64.ActiveCfg = Debug|x64
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.All|x64.Build.0 = Debug|x64
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.All|x86.ActiveCfg = Debug|Win32
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.All|x86.Build.0 = Debug|Win32
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.Debug|x64.ActiveCfg = Debug|x64
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.Debug|x64.Build.0 = Debug|x64
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.Debug|x86.Build.0 = Debug|Win32
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.DefaultBuild|x64.ActiveCfg = Debug|x64
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.DefaultBuild|x64.Build.0 = Debug|x64
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.DefaultBuild|x86.ActiveCfg = Debug|Win32
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.DefaultBuild|x86.Build.0 = Debug|Win32
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.Release|x64.ActiveCfg = Release|x64
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.Release|x64.Build.0 = Release|x64
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.Release|x86.ActiveCfg = Release|Win32
+		{03200817-45CC-43DF-A662-B9BE2EEC6DDB}.Release|x86.Build.0 = Release|Win32
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.All|x64.ActiveCfg = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.All|x64.Build.0 = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.All|x86.ActiveCfg = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.All|x86.Build.0 = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.Debug|x64.ActiveCfg = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.Debug|x64.Build.0 = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.Debug|x86.ActiveCfg = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.Debug|x86.Build.0 = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.DefaultBuild|x64.ActiveCfg = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.DefaultBuild|x64.Build.0 = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.DefaultBuild|x86.ActiveCfg = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.DefaultBuild|x86.Build.0 = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.Release|x64.ActiveCfg = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.Release|x64.Build.0 = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.Release|x86.ActiveCfg = DefaultBuild
+		{A60DB563-9F24-459F-B7CE-AFF033762E90}.Release|x86.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {821B813C-DBB5-40F1-B9B6-B8367281F657}
+	EndGlobalSection
+EndGlobal

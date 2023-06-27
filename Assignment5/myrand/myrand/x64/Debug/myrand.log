@@ -1,0 +1,3 @@
+﻿  myrand.cpp
+C:\Users\erich\git\Assignment5\myrand\myrand\myrand.cpp(37,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  myrand.vcxproj -> C:\Users\erich\git\Assignment5\myrand\myrand\x64\Debug\myrand.exe

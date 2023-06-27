@@ -1,0 +1,26 @@
+To build and run both containers at once, use the "run.sh" script.
+The run.sh script will build both containers and then run them with "12" entered as the maximum integer.
+
+I decided to create 3 dockerfiles to show the size difference between the different techniques:
+    Dockerfile.ubuntu uses an Ubuntu base image to build and run the code. This is the largest of the containers because it utilizes a large base image and no multistage build.
+    Dockerfile.alpine uses a multistage build process. It starts with the Ubuntu image to build the code and produce a .jar file. It then creates a smaller Alpine container to run the produced .jar file.
+    The Dockerfile.smaller uses an Alpine base image to build and run the jar. This image is much smaller than the Ubuntu image but performs the same functions.
+
+To build the Ubuntu container, use the command:
+    docker build -t assignment7ubuntu:latest -f ./Dockerfile.ubuntu .
+To run that container, use:
+    docker run -it --rm assignment7ubuntu:latest
+
+To build the multistage Alpine container, use:
+    docker build -t assignment7alpine:latest -f ./Dockerfile.alpine .
+To run that container, use:
+    docker run -it --rm assignment7alpine:latest
+
+To build the smaller build and run container, use:
+    docker build -t assignment7smaller:latest -f ./Dockerfile.smaller .
+To run that container, use:
+    docker run -it --rm assignment7smaller:latest
+
+In the "ContainerSizeComparison" screenshot, you can see that the Alpine run container is considerably smaller than the Ubuntu build container. This is because the Alpine base image is significantly smaller than the Ubuntu base image, I only had to install JRE and not a full JDK, and the only file I had to place on it is the .jar.
+
+The Dockerfile.smaller performs the same functions as the Dockerfile.ubuntu but is much smaller. It is about half the size because I used a smaller base image that had JDK pre-installed, and I combined the commands onto a single line to prevent Docker from creating additional layers.

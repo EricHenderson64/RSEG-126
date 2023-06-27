@@ -1,0 +1,27 @@
+#Starting with latest 20.04 Ubuntu Linux image from dockerhub
+FROM ubuntu:20.04 as builder
+#Copy the code to the container
+COPY code ./src
+#Set working diretory
+WORKDIR /src
+#Update apt packages
+RUN apt update
+#Install JDK, tagged with the appropriate version
+RUN apt install -y openjdk-17-jdk=17.0.7+7~us1-0ubuntu1~20.04
+#Compile the java code into a .class file
+RUN javac Main.java
+#create a jar file based on that .class file
+RUN jar cf Main.jar Main.class
+#set the main class in the jar
+RUN jar cfe Main.jar Main Main.class 
+
+
+# Everything below makes it a "multistage build"
+
+#Start with alpine image because it is much smaller than ubuntu
+FROM eclipse-temurin:17-jre-alpine
+#Copy the jar from the ubuntu image
+COPY --from=builder /src/Main.jar Main.jar
+#Run the jar 
+ENTRYPOINT [ "java", "-jar", "Main.jar", "12"]
+
